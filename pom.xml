@@ -21,21 +21,6 @@
             <artifactId>stopwords-core</artifactId>
             <version>1.0</version>
         </dependency>
-        <dependency>
-            <groupId>io.javalin</groupId>
-            <artifactId>javalin</artifactId>
-            <version>4.1.1</version>
-        </dependency>        
-        <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>8.0.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.glassfish</groupId>
-            <artifactId>javax.json</artifactId>
-            <version>1.1.4</version>
-        </dependency>
     </dependencies>
     <build>
         <resources>
@@ -67,20 +52,6 @@
                     </execution> 
                 </executions> 
             </plugin> 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.2.0</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib</classpathPrefix> 
-                            <mainClass>net.clementlevallois.lemmatizerlightweight.api.ApiController</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
     <name>Lemmatizer lightweight</name>
