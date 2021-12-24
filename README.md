@@ -20,7 +20,6 @@ String result = lemmatizer.lemmatize("Students");
 
 ### Pros
 - light weight: one single file
-- two small dependencies with no further sub-dependencies for a __total of 200kb__
 
 ### What for?
 Excellent lemmatizers already exist for French and English. To excel, they use large scale models (hundreds of megabytes per language) or require extensive pre-processing on the text to be lemmatized (such a part of speech tagging).
