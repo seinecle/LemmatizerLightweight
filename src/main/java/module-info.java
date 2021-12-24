@@ -5,7 +5,5 @@
  */
 
 module LemmatizerLightweight {
-    requires net.clementlevallois.utils;
-    requires net.clementlevallois.stopwords;
     exports net.clementlevallois.lemmatizerlightweight;
 }
